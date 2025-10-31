@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>404 — Oops, we couldn't find that</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root { --accent:#ff6b6b; --muted:#6b7280; --bg:#fffaf0; }
+    body { font-family: Inter, Arial, sans-serif; background:var(--bg); color:#111; margin:0; display:flex; min-height:100vh; align-items:center; justify-content:center; padding:2rem; }
+    .card { background:white; border-radius:12px; box-shadow:0 8px 30px rgba(20,20,40,0.08); padding:2rem; max-width:760px; width:100%; text-align:left;}
+    .hero { display:flex; gap:1.5rem; align-items:center; }
+    .big { font-size:86px; font-weight:800; color:var(--accent); line-height:0.9;}
+    h2 { margin:0 0 .25rem 0; font-size:24px; }
+    p { color:var(--muted); margin-top:0.5rem; }
+    ul { margin:0.5rem 0 1rem 1.25rem; color:var(--muted); }
+    a.button { display:inline-block; margin-top:1rem; background:#0b5ed7; color:white; padding:0.6rem 1rem; text-decoration:none; border-radius:8px; }
+    .meta { margin-top:1.25rem; font-size:14px; color:#374151; }
+    .email { color:#0b5ed7; font-weight:600; }
+  </style>
+</head>
+<body>
+  <div class="card" role="main">
+    <div class="hero">
+      <div class="big">404</div>
+      <div>
+        <h2>Oops — the page seems to have wandered off</h2>
+        <p>We couldn't find the page you were looking for. Try one of the options below to get back on track.</p>
+
+        <ul>
+          <li>Check the URL for typos (missing <code>http://</code> or stray spaces)</li>
+          <li>Use the link below to go back to the homepage</li>
+          <li>If you think this is a broken link, notify us via email</li>
+        </ul>
+
+        <a class="button" href="/">← Go back home</a>
+
+        <div class="meta">
+          <p>Need help? Contact: <span class="email">23f2000313@ds.study.iitm.ac.in</span></p>
+          <p style="margin-top:6px;color:var(--muted)">Tip: try removing parts of the URL until you reach a known page.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
